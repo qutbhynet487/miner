@@ -1,10 +1,10 @@
-sudo apt update && sudo apt upgrade && sudo apt install wget && sudo apt install proot && sudo apt install git
+apt update && apt upgrade && apt install wget && apt install proot && apt install git
 
-sudo apt-get install git build-essential cmake libuv1-dev libmicrohttpd-dev libssl-dev
+apt-get install git build-essential cmake libuv1-dev libmicrohttpd-dev libssl-dev
 
-sudo apt-get install git build-essential cmake libuv1-dev libssl-dev libhwloc-dev
+apt-get install git build-essential cmake libuv1-dev libssl-dev libhwloc-dev
 
-sudo apt-get install wget proot -y && hash -r
+apt-get install wget proot -y && hash -r
 
 git clone https://github.com/xmrig/xmrig.git
 
